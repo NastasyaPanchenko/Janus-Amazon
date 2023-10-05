@@ -2,12 +2,18 @@
 
 This is a project for Janus. The test is written in JavaScript and running on Node.js.
 
-
-
-
-Summery
+Summary
 
 Selenium Page Object Model framework using JavaScript.
+
+productPage.js - this test opens the Product page. Verify that the Main Product Image is displayed to confirm that it's a product page. 
+
+addToCartPage.js  - The test opens the Product Pages. Checks if 'Add To Cart' button is on a page. Then click 'Add to Cart button. Product added to the cart if 'Added' text is displayed on the Product page. 
+
+searchpage.js -  search by product name. The test opens the base Amazon URL. Enter a search WORD, then click - Enter. To verify that a search page displays the correct result the test will confirm that the Search WORD is displayed on the top left corner. 
+
+
+
 
 
 # Dependencies
@@ -45,4 +51,5 @@ https://mochajs.org/
 # To run the tests.
 
 node test/test.js 
-current example node pages/productPage.js
+
+current example:    node pages/productPage.js
