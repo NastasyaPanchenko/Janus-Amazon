@@ -1,5 +1,5 @@
 const {Builder, By, Key } = require('selenium-webdriver');
-//var driver = new Builder().forBrowser("chrome").build();
+var driver = new Builder().forBrowser("chrome").build();
 
 
  class ProductPage {
